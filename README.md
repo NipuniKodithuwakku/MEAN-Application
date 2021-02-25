@@ -40,19 +40,20 @@ make install
 npm test
 ```
 
-## Release History
+## Github
 
-* 0.2.1
+* git init
     * CHANGE: Update docs (module code remains unchanged)
-* 0.2.0
+* git add .
     * CHANGE: Remove `setDefaultXYZ()`
     * ADD: Add `init()`
-* 0.1.1
+* git commit -m "comment name"
     * FIX: Crash when calling `baz()` (Thanks @GenerousContributorName!)
-* 0.1.0
+* 
     * The first proper release
     * CHANGE: Rename `foo()` to `bar()`
-* 0.0.1
+* git pull --rebase origin main
+  git push origin main
     * Work in progress
 
 ## Meta
