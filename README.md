@@ -7,22 +7,22 @@
 [![Build Status][travis-image]][travis-url]
 [![Downloads Stats][npm-downloads]][npm-url]
 
-One to two paragraph statement about your product and what it does.
+M- Mongodb E-Express A-Angular N-Node
 
 ![](header.png)
 
-## Installation
+## NODE,Express,MongoDB backend
 
-OS X & Linux:
+create package.json file:
 
 ```sh
-npm install my-crazy-module --save
+npm init --yes
 ```
 
-Windows:
+install required packages:
 
 ```sh
-edit autoexec.bat
+npm install express mongoose body-parser nodemon
 ```
 
 ## Usage example
