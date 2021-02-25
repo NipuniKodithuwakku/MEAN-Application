@@ -4,7 +4,7 @@ const bodyParser = require("body-parser");
 
 const app = express();
 mongoose
-  .connect("")
+  .connect("mongodb://localhost:27017/crudDb")
   .then(() => console.log("connected to mongo db..."))
   .catch((err) => console.error("could not connect to the mongo db", err));
 
